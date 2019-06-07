@@ -98,6 +98,7 @@ nav {
     border: 1px solid grey;
     border-radius: 5px;
    font-family: 'Sarabun', sans-serif;
+    font-size: 21px;
     /*display: flex;*/
 }
 
@@ -135,6 +136,7 @@ nav {
  
 
 }
+
 
 .contenidor-boto:hover {
     background-color;
