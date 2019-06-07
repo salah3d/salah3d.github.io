@@ -171,7 +171,9 @@ nav {
 .fa-facebook-square:hover {
     color: greenyellow;
 }
-
+.contenidor-boto:hover{
+    color: greenyellow;
+}
 
 
 .links {
@@ -283,6 +285,24 @@ nav {
     width: 98%;
     margin: 5px;
 
+}
+.contenidor-boto {
+    flex: 1 150px;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    border-radius: 16px;
+    border: 0px solid grey;
+    margin: 5px;
+    text-align: center;
+font-family: 'Poppins', sans-serif;
+ 
+
+}
+
+.contenidor-boto:hover {
+    background-color: tomato;
+    color: white;
 }
 
 .fletxaDreta-slider {
