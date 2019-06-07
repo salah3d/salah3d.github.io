@@ -219,6 +219,11 @@ nav {
         display: block;
         width: 100%;
     }
+    .slideshow_wrapper{
+        width: 100%;
+        display: block;
+        width: 100%;
+    }
 }
 
 /*Classes Slider*/
@@ -413,10 +418,10 @@ font-family: 'Poppins', sans-serif;
 
 @-webkit-keyframes slide_animation {
   
-  0% {left:0px;}
-  10% {left:500px;}
-  20% {left:500px;}
-  30% {left:500px;}
+  0% {left:-5px;}
+  10% {left:-5px;}
+  20% {left:-5px;}
+  30% {left:-5px;}
   40% {left:500px;}
   50% {left:500px;}
   60% {left:500px;}
@@ -427,3 +432,36 @@ font-family: 'Poppins', sans-serif;
   
   
 }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
